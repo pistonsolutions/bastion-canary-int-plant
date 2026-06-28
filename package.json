@@ -1,0 +1,26 @@
+{
+  "name": "bastion-canary-int-plant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:provenance": "echo CICANARY-2c3095cf",
+    "build": "npm run build:provenance"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pistonsolutions/bastion-canary-int-plant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pistonsolutions/bastion-canary-int-plant/issues"
+  },
+  "homepage": "https://github.com/pistonsolutions/bastion-canary-int-plant#readme",
+  "dependencies": {
+    "@buildcanary/init-db008155": "^1.0.0"
+  }
+}
