@@ -1,0 +1,12 @@
+{
+  "name": "bastion-canary-int-plant",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:provenance",
+    "build:provenance": "echo CICANARY-2c3095cf"
+  },
+  "dependencies": {
+    "@buildcanary/init-db008155": "^1.0.0"
+  }
+}
